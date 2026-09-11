@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Nurmelizah - Informatics Engineering student, web developer, designer, and creative communicator." />
+    <title>Nurmelizah - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-grid" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Nurmelizah, kembali ke home"><span>N</span>urmelizah.</a>
+      <nav aria-label="Navigasi utama">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#project">Project</a><a href="#experience">Experience</a><a href="#achievement">Achievement</a><a href="#pendidikan">Skills</a><a href="#training">Training</a>
+      </nav>
+      <a class="header-contact" href="#kontak">Mari terhubung</a>
+    </header>
+
+    <main>
+      <section class="hero section page active" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Informatics Engineering Student</p>
+          <h1>A glimpse of what I<br /><em>learn, create,</em><br />and become.</h1>
+          <p class="hero-text"><strong>Curious to learn. Driven to create. Ready to grow.</strong><br />Saya adalah mahasiswa Teknik Informatika yang terus mengeksplorasi dunia teknologi, desain, dan kreativitas melalui berbagai proyek, organisasi, dan pengalaman baru.</p>
+          <div class="hero-actions"><a class="button primary" href="#project">Lihat karya</a><a class="text-link" href="#about">Kenali saya</a></div>
+        </div>
+        <div class="hero-visual reveal" style="--delay: .15s">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="photo-frame main-photo">
+            <!-- FOTO PROFIL: ganti nilai src pada img di bawah. -->
+            <img src="profile-nurmelizah.jpg" alt="Foto profil Nurmelizah" />
+          </div>
+          <div class="floating-note note-one"><b>3,73</b><span>GPA / 4.00</span></div>
+          <div class="floating-note note-two"><b>Creative<br />Technologist</b></div>
+          <p class="visual-label">Based in<br /><strong>Bengkulu, ID</strong></p>
+        </div>
+        <div class="hero-scroll">Scroll untuk menjelajah <span></span></div>
+      </section>
+
+      <section class="about section page" id="about">
+        <div class="section-label reveal"><span>01</span> About</div>
+        <div class="about-grid">
+          <h2 class="reveal">Think different,<br /><em>Create better.</em></h2>
+          <div class="about-content reveal" style="--delay:.12s"><p>Mahasiswi S1 Teknik Informatika Universitas Bengkulu dengan minat pada pengembangan web, desain grafis, dan konten digital.</p><p>Saya senang menerjemahkan persoalan menjadi solusi yang jelas, fungsional, dan memiliki karakter visual.</p></div>
+        </div>
+        <div class="journey-showcase reveal"><div class="journey-label">OUR JOURNEY</div><div class="about-logo-cloud" aria-label="Teknologi dan platform yang digunakan"><img src="html%20logo.webp" alt="HTML" title="HTML" /><img src="csslogo.png" alt="CSS" title="CSS" /><img src="javascript%20logo.png" alt="JavaScript" title="JavaScript" /><img src="sql%20logo.jpg" alt="SQL" title="SQL" /><img src="canva%20logo.png" alt="Canva" title="Canva" /><img src="photoshop%20logo.webp" alt="Photoshop" title="Photoshop" /><span class="logo-break" aria-hidden="true"></span><img src="figma%20logo.png" alt="Figma" title="Figma" /><img src="capcut%20logo.png" alt="CapCut" title="CapCut" /><img src="instagram%20logo.png" alt="Instagram" title="Instagram" /><img src="linkedin%20logo.webp" alt="LinkedIn" title="LinkedIn" /><img src="tiktok%20logo.png" alt="TikTok" title="TikTok" /><img src="youtube%20logo.webp" alt="YouTube" title="YouTube" /><img src="vscode%20logo.png" alt="VS Code" title="VS Code" /></div></div>
+      </section>
+
+      <section class="projects section page" id="project">
+        <div class="section-top reveal"><div class="section-label"><span>02</span> Karya pilihan</div><p>Eksplorasi di persimpangan desain, kode, dan narasi.</p></div>
+        <div class="projects-head reveal"><h2>Project yang<br /><em>pernah dibangun.</em></h2><div class="filters" role="group" aria-label="Filter project"><button class="active" data-filter="all">Semua</button><button data-filter="web">Web</button><button data-filter="game">Game</button><button data-filter="design">Desain</button></div></div>
+        <!-- Artwork project ditampilkan langsung pada setiap kartu. -->
+        <div class="project-grid">
+          <article class="project-card featured reveal" data-type="web"><button class="project-open" data-project="mybouquet" aria-label="Lihat detail MyBouquet"><div class="card-art bouquet-art"><img class="project-photo" src="mybuket.png" alt="Preview project MyBouquet" /><span class="art-tag">Personal project</span><div class="art-word">my<br /><i>bouquet</i></div></div><div class="card-info"><div><p>Web Development - 2025</p><h3>MyBouquet</h3></div><span class="arrow"></span></div></button></article>
+          <article class="project-card reveal" data-type="web" style="--delay:.08s"><button class="project-open" data-project="merch" aria-label="Lihat detail Merch HIMATIF"><div class="card-art merch-art"><img class="project-photo" src="merch%20himatif.png" alt="Preview project Merch HIMATIF" /><span class="art-tag">Group project</span><div class="browser-ui"><i></i><i></i><i></i><b>HIMATIF<br />MERCH</b></div></div><div class="card-info"><div><p>Web Development - 2025</p><h3>Merch HIMATIF</h3></div><span class="arrow"></span></div></button></article>
+          <article class="project-card reveal" data-type="game" style="--delay:.14s"><button class="project-open" data-project="space" aria-label="Lihat detail Space Rescue"><div class="card-art space-art"><img class="project-photo" src="alice.png" alt="Preview project Space Rescue" /><span class="art-tag">Game design</span><div class="planet"></div></div><div class="card-info"><div><p>Game Design - 2025</p><h3>Space Rescue</h3></div><span class="arrow"></span></div></button></article>
+          <article class="project-card reveal" data-type="design" style="--delay:.2s"><button class="project-open" data-project="healthcare" aria-label="Lihat detail Healthcare Reservation"><div class="card-art health-art"><img class="project-photo" src="SRLKO.png" alt="Preview project Healthcare Reservation" /><span class="art-tag">UI/UX design</span><div class="health-line"></div></div><div class="card-info"><div><p>UI/UX Design - 2025</p><h3>Healthcare Reservation</h3></div><span class="arrow"></span></div></button></article>
+          <article class="project-card reveal" data-type="design"><button class="project-open" data-project="labirin" aria-label="Lihat detail Labirin Waktu"><div class="card-art labirin-art"><img class="project-photo" src="film%202.png" alt="Preview project Labirin Waktu" /><span class="art-tag">Short film</span><div class="film-title">LABIRIN<br /><i>WAKTU</i></div></div><div class="card-info"><div><p>Multimedia - 2025</p><h3>Labirin Waktu</h3></div><span class="arrow"></span></div></button></article>
+          <article class="project-card reveal" data-type="game"><button class="project-open" data-project="velocity" aria-label="Lihat detail Velocity Strike"><div class="card-art velocity-art"><img class="project-photo" src="velocity%20strike.png" alt="Preview project Velocity Strike" /><span class="art-tag">Game design</span><b>VELOCITY<br />STRIKE</b><div class="laser"></div></div><div class="card-info"><div><p>Game Design - 2025</p><h3>Velocity Strike</h3></div><span class="arrow"></span></div></button></article>
+        </div>
+        <p class="project-note">Klik project untuk melihat peran dan teknologi yang digunakan.</p>
+      </section>
+
+      <!-- FOTO PENGALAMAN: ganti div .photo-placeholder pada halaman ini dengan tag img yang file-nya ada di folder . -->
+      <section class="experience section page" id="experience">
+        <div class="section-top reveal"><div class="section-label"><span>03</span> Experience</div><p>Belajar, memimpin, dan menciptakan dampak bersama.</p></div>
+        <div class="experience-layout"><div class="experience-intro reveal"><h2>Learn, <em>Lead,</em><br />Make an Impact.</h2><div class="experience-image"><img src="kadep.JPG" alt="Foto pengalaman sebagai kepala departemen" /></div></div><div class="timeline reveal" style="--delay:.1s">
+          <article><span class="year">2026</span><div><h3>Teaching Assistant</h3><p>Software Engineering Project Practicum - Universitas Bengkulu</p><small>Membimbing perancangan sistem, UML/DFD, dan implementasi aplikasi web.</small></div></article>
+          <article><span class="year">2026</span><div><h3>Head of Education & Training</h3><p>Engineering Research Community (ERCOM)</p><small>Memimpin program pelatihan, mentoring, dan pengembangan kapasitas mahasiswa.</small></div></article>
+          <article><span class="year">2026</span><div><h3>Creator Studio Member</h3><p>Novo Club Batch 4 - ParagonCorp</p><small>Mengembangkan konten kreatif, storytelling, dan kampanye digital.</small></div></article>
+          <article><span class="year">2025</span><div><h3>Teaching Assistant</h3><p>Multimedia Systems Project Practicum - Universitas Bengkulu</p><small>Memandu Adobe Family dan Figma untuk desain visual serta prototyping UI.</small></div></article>
+        </div></div>
+      </section>
+
+      <!-- FOTO PENCAPAIAN: unggah ke folder Dokumentasi/, kemudian tambahkan nama file di object achievements pada script.js. -->
+      <section class="achievements section page" id="achievement">
+        <div class="section-top reveal"><div class="section-label"><span>04</span> Achievement</div><p>Setiap proses adalah langkah yang layak dirayakan.</p></div>
+        <div class="achievement-heading reveal"><h2>Milestones<br /><em>That Matter</em></h2><span>Klik kartu untuk melihat detail dan dokumentasi</span></div>
+        <div class="achievement-cards">
+          <button class="achievement-card reveal" data-achievement="qris"><img src="Top%2010%20Finalist.jpg" alt="Top 10 Finalist" /><span>01 - 2026</span><b>Top 10 Finalist</b><small>QRIS Jelajah Indonesia</small></button>
+          <button class="achievement-card reveal" data-achievement="design"><img src="Best%20participant.jpg" alt="Best Participant" /><span>02 - 2025</span><b>Best Participant</b><small>Graphic Design Class</small></button>
+          <button class="achievement-card reveal" data-achievement="bright"><img src="awardee%20bright%20scholarship.jpg" alt="BRIGHT Awardee" /><span>03 - 2024</span><b>BRIGHT Awardee</b><small>YBM BRILiaN</small></button>
+          <button class="achievement-card reveal" data-achievement="osnk"><img src="osn.jpg" alt="1st Winner" /><span>04 - 2023</span><b>1st Winner</b><small>OSN-K Astronomy</small></button>
+          <button class="achievement-card reveal" data-achievement="paskibraka"><img src="paskibraka.jpg" alt="PASKIBRAKA Member" /><span>05 - 2022</span><b>PASKIBRAKA Member</b><small>DISPORA Kab. Kaur</small></button>
+          <button class="achievement-card reveal" data-achievement="poif"><img src="poif.jpg" alt="4th Place" /><span>06 - 2022</span><b>4th Place</b><small>POIF XXIV Plus</small></button>
+        </div>      </section>
+
+      <!-- FOTO PENDIDIKAN: ganti src pada img di dalam .education-photo dengan file dari folder . -->
+      <section class="credentials section page" id="pendidikan">
+        <div class="section-top reveal"><div class="section-label"><span>05</span> Pendidikan & keahlian</div><p>Fondasi yang terus saya kembangkan.</p></div>
+        <div class="education-skills"><article class="education-card reveal"><div class="education-photo"><img src="profile-nurmelizah.jpg" alt="Nurmelizah, mahasiswi Teknik Informatika" /></div><p class="eyebrow">Pendidikan</p><h3>S1 Teknik Informatika</h3><p>Universitas Bengkulu</p><div class="gpa"><b>3,73</b><span>GPA / 4.00</span></div><small>Fokus: Software Engineering, Multimedia Systems, dan Database Systems.</small></article><div class="skills-wrap reveal"><h2>Technical<br /><em>skills.</em></h2><div class="technical-cards"><article class="app-logos"><span>Design & multimedia</span><div class="logo-cloud"><img src="https://cdn.simpleicons.org/adobephotoshop/0A5BD8" alt="Adobe Photoshop" title="Adobe Photoshop" /><img src="https://cdn.simpleicons.org/figma/0A5BD8" alt="Figma" title="Figma" /><img src="https://cdn.simpleicons.org/canva/0A5BD8" alt="Canva" title="Canva" /></div></article><article class="app-logos"><span>Web development</span><div class="logo-cloud"><img src="https://cdn.simpleicons.org/html5/0A5BD8" alt="HTML" title="HTML" /><img src="https://cdn.simpleicons.org/css/0A5BD8" alt="CSS" title="CSS" /><img src="https://cdn.simpleicons.org/javascript/0A5BD8" alt="JavaScript" title="JavaScript" /><img src="https://cdn.simpleicons.org/mysql/0A5BD8" alt="MySQL" title="MySQL" /></div></article><article class="app-logos"><span>Tools</span><div class="logo-cloud"><img src="https://cdn.simpleicons.org/microsoftoffice/0A5BD8" alt="Microsoft Office" title="Microsoft Office" /><img src="https://cdn.simpleicons.org/visualstudiocode/0A5BD8" alt="Visual Studio Code" title="Visual Studio Code" /></div></article><article><span>Professional Skills</span><h3>Working with people</h3><p>Leadership, Public Speaking, Public Relations, Teamwork, Time Management, dan Creative Problem Solving.</p></article></div></div></div>
+      </section>
+
+      <!-- FOTO SERTIFIKAT: ganti teks "Tempat foto sertifikat" pada masing-masing .certificate-image dengan tag img dari folder . -->
+      <section class="certifications section page" id="training"><div class="section-top reveal"><div class="section-label"><span>06</span> Training</div><p>Tujuh pembelajaran untuk memperluas perspektif.</p></div><div class="certification-grid"><article class="cert-card reveal"><div class="certificate-image"><iframe src="revo%20U%20coding%20camp.pdf" title="Sertifikat Coding Camp Software Engineer"></iframe></div><span>2025</span><h3>Coding Camp<br />Software Engineer</h3><p>Dicoding Indonesia</p></article><article class="cert-card reveal"><div class="certificate-image"><iframe src="Sertifikasi%20Gemini.pdf" title="Sertifikat Gemini AI Certification"></iframe></div><span>2026</span><h3>Gemini AI<br />Certification</h3><p>Gemini AI</p></article><article class="cert-card reveal"><div class="certificate-image"><img src="sertifikat%20desain%20EA.jpg" alt="Sertifikat Design Class Training" /></div><span>2025</span><h3>Design Class<br />Training</h3><p>ERCOM Academy</p></article><article class="cert-card reveal"><div class="certificate-image"><img src="sertifikat%20microsoft%20office.jpg" alt="Sertifikat Microsoft Office Training" /></div><span>2020</span><h3>Microsoft Office<br />Training</h3><p>Microsoft Office</p></article><article class="cert-card reveal"><div class="certificate-image"><img src="sertifikat%20winter%20school.jpg" alt="Sertifikat PPKO Training" /></div><span>2025</span><h3>PPKO<br />Training</h3><p>Winter School</p></article><article class="cert-card reveal"><div class="certificate-image"><img src="sertifikat%20SLE.jpg" alt="Sertifikat Student Leadership Education" /></div><span>2024</span><h3>Student Leadership<br />Education</h3><p>KPKK BEM KBM UNIB</p></article><article class="cert-card reveal"><div class="certificate-image"><img src="sertifikat%20prapena.jpg" alt="Sertifikat Scientific Essay Training Prapena" /></div><span>2024</span><h3>Scientific Essay<br />Training Prapena</h3><p>ERCOM FT UNIB</p></article></div></section>
+
+      <section class="contact section page" id="kontak"><p class="eyebrow reveal"><span></span> Mari berkolaborasi</p><h2 class="reveal">Punya Ide?<br /><em>Mari wujudkan!</em></h2><a class="contact-mail reveal" href="mailto:enmllyzh@gmail.com">enmllyzh@gmail.com</a><div class="social-links reveal"><a href="https://www.instagram.com/enmllyzh.30" target="_blank" rel="noreferrer">Instagram <b>@enmllyzh.30</b></a><a href="https://www.tiktok.com/@enmllyzh" target="_blank" rel="noreferrer">TikTok <b>@enmllyzh</b></a><a href="https://www.linkedin.com/in/nurmelizah" target="_blank" rel="noreferrer">LinkedIn <b>Nurmelizah Nurmelizah</b></a></div><div class="contact-bottom"><span>2026 Nurmelizah</span><a href="#home">Kembali ke atas</a></div></section>
+    </main>
+    <dialog class="project-modal"><button class="modal-close" aria-label="Tutup">-</button><div class="modal-content"></div></dialog>
+    <dialog class="achievement-modal"><button class="achievement-close" aria-label="Tutup">-</button><div class="achievement-content"></div></dialog>
+    <dialog class="certificate-modal"><button class="certificate-close" aria-label="Tutup">-</button><div class="certificate-modal-content"></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
